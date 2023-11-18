@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card2-HTML</title>
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap');
+    body {
+      font-family: 'inter';
+    }
+    .fundo {
+      width: 350px;
+      height: 513px;
+      background-color: darkslateblue;
+      border-radius: 3%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    img {
+      width: 260px;
+      height: 193px;
+    }
+    .Timeleft {
+      width: 34px;
+      height: 24px;
+      background-color: white;
+      display: inline-flex;
+      border-radius: 10%;
+      margin: 5px;
+      justify-content: center;
+      align-items: center;
+      font-size: 10px;
+      font-weight: bold;
+      color: darkslategrey;
+    }
+    h5 {
+      color: white;
+      font-weight: lighter;
+    }
+    h1 {
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 10px;
+      font-weight: lighter;
+    }
+    .botao {
+      margin-top: 20px;
+    }
+    button {
+      width: 141px;
+      height: 46px;
+      color: white;
+      background-color: midnightblue;
+      border-radius: 10%;
+      border: none;
+    }
+    .titulo {
+      margin-top: -30px;
+      margin-bottom: -40px;
+    }
+    .container-timeleft {
+      margin-top: 25px;
+    }
+  </style>
+  <body>
+    <div class="fundo">
+      <div class="titulo">
+        <h5>Iphone 12 mini</h5>
+      </div>
+      <h1>Best offer</h1>
+      <img src="./assets/iphone.png" />
+      <div class="container-timeleft">
+        <p>time left:</p>
+
+        <span class="Timeleft">02</span>
+        <span class="Timeleft">23</span>
+        <span class="Timeleft">42</span>
+
+        <div class="botao">
+          <button>Only $399.00</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

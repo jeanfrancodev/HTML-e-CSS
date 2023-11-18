@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card-HTML</title>
+  </head>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap');
+    body {
+      font-family: 'inter';
+      background: black;
+    }
+    .card {
+      background-color: white;
+      width: 350px;
+      height: 457px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 2%;
+    }
+    .imagem {
+      width: 334px;
+      height: 200px;
+      margin-top: 7px;
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+    button {
+      border-radius: 25%;
+      border: none;
+      color: darkslategrey;
+    }
+    .card2 {
+      width: 95%;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      color: darkslategrey;
+    }
+    .container-card {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      margin-bottom: 20px;
+      margin-top: 30px;
+      padding-left: 5px;
+    }
+    .button-specific {
+      background-color: mediumblue;
+      color: white;
+      box-shadow: 0px 4px 3px 0px darkgrey;
+    }
+  </style>
+
+  <body>
+    <div class="card">
+      <div class="imagem">
+        <img src="./assets/rounded.png" alt="Fone de ouvido sem fio" />
+      </div>
+      <div class="container-card">
+        <div class="card2">
+          <b>Product List</b><button class="button-specific">1245</button>
+        </div>
+
+        <div class="card2">First Option <button>23</button></div>
+
+        <div class="card2">Second Option <button>7</button></div>
+
+        <div class="card2">Third Option <button>1</button></div>
+
+        <div class="card2">Fourth Option <button>23</button></div>
+      </div>
+    </div>
+  </body>
+</html>
